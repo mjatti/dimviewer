@@ -9,7 +9,7 @@ It allows users to:
 
 ---
 
-## 🔧 How to Use
+## How to Use
 
 ### 1. Install dependencies
 
@@ -59,29 +59,8 @@ Each object must have:
 
 All `z` arrays should have the same length.
 
-### 5. Build for production
-
-To create a static build for deployment (e.g. to Vercel or Netlify):
-
-```bash
-npm run build
-```
-
-The build will be output to the `dist/` directory.
-
 ---
 
-## 📂 File Structure
-
-```text
-src/
-├── App.jsx         # Main React component with Plotly-based visualizer
-├── data.js         # Replace this file with your own latent space data
-├── main.jsx        # React/Vite entry point
-```
-
----
-
-## 📄 License
+## License
 
 MIT License.
